@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Blog Post</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Create a New Post</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="post.html">Create Post</a>
+        </nav>
+    </header>
+
+    <main>
+        <form id="post-form">
+            <div class="form-group">
+                <label for="title">Post Title</label>
+                <input type="text" id="title" placeholder="Enter title here..." required>
+            </div>
+            <div class="form-group">
+                <label for="content">Post Content</label>
+                <textarea id="content" rows="10" placeholder="Enter content here..." required></textarea>
+            </div>
+            <button type="submit">Submit Post</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Blog</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
